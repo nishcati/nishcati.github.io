@@ -45,7 +45,9 @@ This a problem which couldn't be solved yet.When the mouse pointer goes out of b
 The problem was deeply enhanced due to problem no 2. This was solved simply enough by reducing the sesitivity of the gyroscope module and increasing that of the pointer so that in effect there is no change in the mouse sensitivity and the minute noise from the gyroscope is neglected.
 ### Credits
    Varun Sriram Intern from  Rajagiri School of Engineering & Technology
+
    Amith G Nair  Hardware Engineer , IT Department ,National Institute of Speech and Hearing
+
    Akila Surendran Senior Engineer , center for assistive technology and innovation,National Institute of Speech and Hearing
 
 ## References
