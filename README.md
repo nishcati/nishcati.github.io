@@ -2,7 +2,7 @@
 Version Type : Intial Prototype  
 
 # Head-Mouse-NISH
-This project was created for assisting quadriplegic people to to use computers and AAC devices easily, as a part of my internship period at NISH.
+This project was created Akila Surendran during her Fab academy time , today we took that idea from her and work on that to make a real one .
 
 
 ## Problem statement
