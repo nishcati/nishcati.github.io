@@ -162,7 +162,11 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-
+.buy-tickets a {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #fff;
+}
 .buy-tickets {
   color: #fff;
   background: #C6B42E;
