@@ -175,9 +175,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   border: 2px solid #C6B42E;
   transition: all ease-in-out 0.3s;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
-  font-size: 20px;
+  font-size: 18px;
   white-space: nowrap;
 }
 .buy-tickets:hover {
@@ -440,11 +440,23 @@ h1, h2, h3, h4, h5, h6 {
     top: 70px;
   }
 }
+@media (max-width: 400px) {
+  #hero h1{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+
+
 #hero h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 #hero h1 span {
@@ -1486,7 +1498,7 @@ label {
     text-align: center;
     background-color: indianred;
     position: fixed;
-    right: 0px;
+    left: 0px;
     z-index: 99999;
     top: 70%;
     font-size: 20px;
@@ -1497,16 +1509,16 @@ label {
 @media (max-width: 460px) {
 
 .fixed-bar {
-    width: 200px;
+    width: 150px;
     border-radius: 25px;
     color: white;
     text-align: center;
     background-color: indianred;
     position: fixed;
-    right: 0px;
+    left: 10px;
     z-index: 99999;
-    top: 50%;
-    font-size: 15px;
+    top: 93%;
+    font-size: 13px;
     font-weight: 300;
     
 }
