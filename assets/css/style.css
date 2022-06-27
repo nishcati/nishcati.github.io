@@ -1479,7 +1479,21 @@ label {
 
 
 
-
+.fixed-bar {
+    width: 280px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: indianred;
+    position: fixed;
+    right: 0px;
+    z-index: 99999;
+    top: 70%;
+    font-size: 20px;
+    font-weight: 400;
+    
+  
+}
 
 
 
