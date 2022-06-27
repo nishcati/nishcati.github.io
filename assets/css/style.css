@@ -620,6 +620,23 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
+#test{
+  padding: 60px 0 30px 0;
+}
+#test p{
+  
+  padding-bottom: 30px;
+  color: #112363;
+}
+#test ul li{
+  padding-top: 10px;
+  margin-left: 60px ;
+  margin-right: 60px;
+  color: #112363;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
 
 #speakers {
   padding: 60px 0 30px 0;
