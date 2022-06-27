@@ -1326,6 +1326,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
   font-size: 14px;
 }
+#footer img
+{
+  width: 250px;
+  align-content: center;
+}
 #footer .footer-top {
   background: #040919;
   padding: 60px 0 30px 0;
@@ -1446,3 +1451,36 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   color: #ddd;
 }
+
+
+
+
+#countdown {
+  width: 100%;
+}
+label {
+  clear: both;
+  display: block;
+}
+#countdown span {
+  color: #FFF;
+  font-size: 26px;
+  font-weight: normal;
+  text-align: center;
+  width: 25%;
+  dispaly: block;
+  float: left;
+  border-right: 1px solid #FFF;
+}
+#countdown span:last-child {
+  border-right: 1px solid #313233;
+}
+
+
+
+
+
+
+
+
+

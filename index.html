@@ -63,7 +63,7 @@
       <h1 class="mb-4 pb-0">International Conference on<br> Communication Disorders and Audiological Practices</h1>
       <p class="mb-4 pb-0">National Institute of Speech and Hearing</p>
       <a href="https://www.youtube.com/embed/ro8krrYwF-E?controls=0" class="glightbox play-btn mb-4"></a>
-      <p id="demo" ></p> 
+      <div id="countdown"></div>
       </div>
   </section><!-- End Hero Section -->
 
@@ -985,6 +985,10 @@
           
 
           <div class="col-lg-3 col-md-6 footer-contact">
+          <img src="assets/img/L.png"></img>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               National Institute of Speech and Hearing <br>
@@ -1038,8 +1042,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("countdown").innerHTML = '<span class="days">' + days +  ' <label>Days</label></span> <span class="hours">' + hours + ' <label>Hours</label></span> <span class="minutes">'
+    + minutes + ' <label>Minutes</label></span> <span class="seconds">' + seconds + ' <label>Seconds</label></span>'; 
 
   // If the count down is finished, write some text
   if (distance < 0) {
