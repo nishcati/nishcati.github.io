@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/banner.jpg) top center;
+  background: url(../img/banner.jpg) top left;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -673,15 +673,20 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
+  padding-bottom: 10px;
 }
 #speakers .speaker .details p {
   color: #fff;
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-style: italic;
 }
 #speakers .speaker .details .social {
-  height: 40px;
+  height: 60px;
+}
+#speakers .speaker .details .social p {
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 #speakers .speaker .details .social i {
   line-height: 0;
@@ -1238,6 +1243,15 @@ h1, h2, h3, h4, h5, h6 {
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
   margin-bottom: 20px;
 }
+
+#sponsers {
+ padding-top: 60px;
+  text-align: center;
+}
+
+#sponsers .contact-address, #contact .contact-phone, #contact .contact-email {
+   text-align: center;
+}
 @media (min-width: 768px) {
   #contact .contact-address, #contact .contact-phone, #contact .contact-email {
     padding: 20px 0;
@@ -1523,4 +1537,6 @@ label {
     
 }
 }
-
+#logo {
+  width: 250px;
+}
