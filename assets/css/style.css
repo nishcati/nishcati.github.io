@@ -1222,7 +1222,7 @@ h1, h2, h3, h4, h5, h6 {her
   transition: all 0.2s;
   background-color: #edb60f;
   border: 0;
-  color: #fff;
+  color: #212529;
 }
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #edb60f;
@@ -1234,7 +1234,7 @@ h1, h2, h3, h4, h5, h6 {her
   transition: all 0.2s;
   background-color: #edb60f;
   border: 0;
-  color: #fff;
+  color: #212529;
 }
 /*--------------------------------------------------------------
 # Contact Section
