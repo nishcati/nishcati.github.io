@@ -1157,7 +1157,8 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = '<span class="days">' + 00 +  ' <label>Days</label></span> <span class="hours">' + 00 + ' <label>Hrs</label></span> <span class="minutes">'
+    + 00 + ' <label>Min</label></span> <span class="seconds">' + 00 + ' <label>Sec</label></span>';
   }
 }, 1000);
 </script>
