@@ -1542,3 +1542,36 @@ h1, h2, h3, h4, h5, h6 {her
 }
 
 
+.fixed-bar {
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    background-color: #000080;
+    border-radius: 10px 10px ;
+    right: 10px;
+    z-index: 99999;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.fixed-bar .blinking {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    animation-name: blinker;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+}
+
+
